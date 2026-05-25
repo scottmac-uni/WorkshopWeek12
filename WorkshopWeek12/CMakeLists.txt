@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (WorkshopWeek12 "WorkshopWeek12.cpp" "WorkshopWeek12.h")
+add_executable (WorkshopWeek12 "WorkshopWeek12.cpp" "WorkshopWeek12.h" "Human.cpp" "Human.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET WorkshopWeek12 PROPERTY CXX_STANDARD 20)
