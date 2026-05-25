@@ -1,0 +1,5 @@
+
+enum Diet {
+	HERBIVORE,
+	CARNIVORE,
+};
